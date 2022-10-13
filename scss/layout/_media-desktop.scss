@@ -1,0 +1,99 @@
+@media (min-width:768px) {
+    
+    header {
+        position: fixed;
+        width: 100%;
+        .container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        nav {
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+        }
+    }
+
+    #hero {
+        height: 100vh;
+        background-attachment: fixed;
+        h1 {
+            padding-top: 120px;
+        }
+    }
+    #somos-vencedores {
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .texto {
+            width: 50%;
+            max-width: 600px;
+            text-align: initial;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        h2 {
+            margin-top: 0px;
+        }
+        .img-container{
+            background-image:
+            url(../image/joel-jasmin-forestbird-znoL1m6MD_k-unsplash.jpg) ;
+           background-size: cover;
+           background-position: center center;
+           height: 500px;
+           width: 400px;
+           border-radius: 15px;
+           box-shadow: 2px black;
+           }
+       
+    }
+
+
+    #nuestras-salidas {
+        .options{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        p {
+            display: block;
+            margin-bottom: 30px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .carta {
+            padding: 50px;
+        }
+    }
+
+    .container-faq {
+        width: 450px;
+        margin: auto;
+        background:$filtro;
+        box-sizing: border-box;
+        border-radius: 7px;
+        padding: 90px;
+        overflow: hidden;
+    }
+
+    #entra-ya {
+        h2{
+            font-size: 3em;
+        }
+        button{
+            font-size: 1.45em;
+        }
+    }
+
+    footer {
+        .container {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

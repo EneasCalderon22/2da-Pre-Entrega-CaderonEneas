@@ -1,0 +1,13 @@
+footer {
+    p {
+        margin:0;
+        padding: 12px;
+        color: rgb(100, 100, 100);
+    }
+    .container {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}

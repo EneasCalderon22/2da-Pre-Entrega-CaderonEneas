@@ -1,0 +1,21 @@
+#somos-vencedores .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#entra-ya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 100vh;
+    h2 {
+        font-size: 9vw;
+    }
+    button {
+        font-size: 4vw;
+    }
+}

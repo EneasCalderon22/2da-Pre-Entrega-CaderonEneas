@@ -1,0 +1,36 @@
+
+@media (max-width:480px){
+
+    header .container {
+        font-size: .8em;
+    }
+
+    
+    header nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #nuestras-salidas .options {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contacto {
+        width: 400px;
+        margin: auto;
+        background:$filtro;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        padding-top: 10px;
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin:0;
+            font-size: 30px;
+            margin-bottom: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    }
+}

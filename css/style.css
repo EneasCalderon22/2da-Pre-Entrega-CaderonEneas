@@ -1,518 +1,304 @@
-* {
-    box-sizing: border-box;
-}
-
+@charset "UTF-8";
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-}
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
+h1 {
+  font-size: 3.5em; }
 
-h1 {font-size: 3.5em;}
-h2 {font-size: 2.7em;}
-h3 {font-size: 1.25em;}
-ul {list-style: none;}
+h2 {
+  font-size: 2.7em; }
 
-.color-acento {
-    color:rgb(4, 167, 4) ;
-}
+h3 {
+  font-size: 1.25em; }
 
-button {
-    font-size: 1.5em; 
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: white;
-    background-color: rgb(4, 167, 4);
-}
-
-button:hover {
-    background-color: darkgreen;
-    transition: all .3s;
-}
-
+ul {
+  list-style: none; }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
-}
+  max-width: 1200px;
+  margin: auto; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #04a704; }
+  button:hover {
+    background-color: darkgreen;
+    transition: all .3s; }
 
 header {
-    background-color: rgb(245, 245, 245);
-}
-
-
-header .logo {
+  background-color: whitesmoke; }
+  header .logo {
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color:rgb(4, 167, 4) ;
+    color: #04a704;
     font-size: 1.6em;
-    animation-name:miAnimacion;
+    animation-name: miAnimacion;
     animation-duration: 2s;
-    animation-delay: 1s;
-}
-
-
-@keyframes miAnimacion {
-    0% {color:rgb(12, 197, 12);}
-    50% {color:rgb(3, 128, 3);}
-    100% {color: rgb(8, 77, 8);}
-}
-
-
-
-.logo:hover {
-    color: rgb(36, 124, 43);
-    transition: all .3s;
-}
-
-header .container {
+    animation-delay: 1s; }
+  header .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-header nav {
+    align-items: center; }
+  header nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 25px;
-}
-
-header a {
+    padding-bottom: 25px; }
+  header a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
-}
-
-header a:hover {
-    color:rgb(4, 167, 4);
-    transition: all .2s;
-}
+    color: black; }
+  header a:hover {
+    color: #04a704;
+    transition: all .2s; }
 
 #hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-#hero h1 {
-    color: white;
-}
-
-#hero button {
-    font-size: 1.75em;
-}
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #hero h1 {
+    color: white; }
+  #hero button {
+    font-size: 1.75em; }
 
 #somos-vencedores .container {
-    text-align: center;
-    padding: 200px 12px;
-}
-
-
-
-
-#nuestras-salidas {
-    background-color: rgb(30, 30, 30) ;
-    color: white;
-    text-align: center;
-}
-
-
-#nuestras-salidas .container{
-    padding:100px  0px ;
-    
-}
-
-#nuestras-salidas .options {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-#nuestras-salidas h2 {
-    margin-top: 0;
-    font-size: 3.2em;
-}
-
-
-#nuestras-salidas p {
-    display: none;
-}
-
-#nuestras-salidas .carta {
-    background-position: center center;
-    background-size:cover ;
-    padding: 50px;
-    margin: 12px;
-    border-radius: 15px;
-
-}
-
-.carta:first-child {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/trekking.jpg)
-}
-
-
-.carta:nth-child(2) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/montaña.png)
-}
-
-.carta:nth-child(3) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/dji.jpg)
-}
-
-.carta:nth-child(4) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/guia.jpg)
-}
-
-.carta:nth-child(5) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/mountain-bike.jpg)
-}
-
-.carta:nth-child(6) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/meditacion.jpg)
-}
-
-.carta:nth-child(7) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/muro.jpg)
-}
-
-.carta:nth-child(8) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/rafting.jpg)
-}
-
-.carta:nth-child(9) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/bungee.jpg)
-}
-
-
-.carta:nth-child(10) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/rapel.jpg)
-}
-
-
-.carta:nth-child(11) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/cabalgata.jpg)
-}
-
-
-.carta:nth-child(12) {
-    background-image: linear-gradient(
-         0deg, 
-         rgba(0, 0, 0, 0.5),
-         rgba(0, 0, 0, 0.5)
-    )
-    ,url(../image/volcan.jpg)
-}
-
-
-
-
-
-#faq{  
-    background-color: rgb(95, 51, 51);
-    color: white;
-
-}
-
-.container-faq h2{
-    color: #fff;
-    text-align: center;
-    margin:0;
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.container-faq {
-    width: 350px;
-    margin: auto;
-    background:rgba(0, 0, 0, 0.4);
-    box-sizing: border-box;
-    border-radius: 7px;
-    padding: 50px;
-}
-
+  text-align: center;
+  padding: 200px 12px; }
 
 #entra-ya {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    height: 100vh;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: white;
+  height: 100vh; }
+  #entra-ya h2 {
+    font-size: 9vw; }
+  #entra-ya button {
+    font-size: 4vw; }
 
-#entra-ya h2 {
-    font-size: 9vw;
-}
+#nuestras-salidas {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center; }
+  #nuestras-salidas .container {
+    padding: 100px  0px; }
+  #nuestras-salidas .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  #nuestras-salidas h2 {
+    margin-top: 0;
+    font-size: 3.2em; }
+  #nuestras-salidas p {
+    display: none; }
+  #nuestras-salidas .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px; }
+  #nuestras-salidas .carta:first-child {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/trekking.jpg); }
+  #nuestras-salidas .carta:nth-child(2) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/montaña.png); }
+  #nuestras-salidas .carta:nth-child(3) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/dji.jpg); }
+  #nuestras-salidas .carta:nth-child(4) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/guia.jpg); }
+  #nuestras-salidas .carta:nth-child(5) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/mountain-bike.jpg); }
+  #nuestras-salidas .carta:nth-child(6) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/meditacion.jpg); }
+  #nuestras-salidas .carta:nth-child(7) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/muro.jpg); }
+  #nuestras-salidas .carta:nth-child(8) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/rafting.jpg); }
+  #nuestras-salidas .carta:nth-child(9) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/bungee.jpg); }
+  #nuestras-salidas .carta:nth-child(10) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/rapel.jpg); }
+  #nuestras-salidas .carta:nth-child(11) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/cabalgata.jpg); }
+  #nuestras-salidas .carta:nth-child(12) {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/volcan.jpg); }
 
-#entra-ya button {
-    font-size: 4vw;
-}
-
-
-
-
-
-#contacto-1{
-    background-image: url(../image/fondo-contacto.jpg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    object-fit: cover;
-    padding: 10px
-}
-.contacto {
-    width: 450px;
+#faq {
+  background-color: #5f3333;
+  color: white; }
+  #faq .container-faq {
+    width: 350px;
     margin: auto;
-    background:rgba(0, 0, 0, 0.4);
-    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
     border-radius: 7px;
-    padding-top: 100px;
-}
+    padding: 90px 50px; }
+    #faq .container-faq h2 {
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-.contacto h2 {
+#contacto-1 {
+  background-image: url(../image/fondo-contacto.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  padding: 10px; }
+
+.contacto {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  padding-top: 100px; }
+  .contacto h2 {
     color: #fff;
     text-align: center;
-    margin:0;
+    margin: 0;
     font-size: 30px;
     margin-bottom: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.contacto input, textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .contacto input, .contacto textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
     box-sizing: border-box;
-    font-size: 17px;
-}
+    font-size: 17px; }
 
 #button-contacto {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 10px black;
-    color: white;
-    background-color:rgb(4, 167, 4);
-}
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  background-color: #04a704; }
 
 footer p {
-    margin:0;
-    padding: 12px;
-    color: rgb(100, 100, 100);
-}
-
+  margin: 0;
+  padding: 12px;
+  color: #646464; }
 
 footer .container {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
 
-
-}
-
-@media (min-width:768px) {
-    
-    header {
-        position: fixed;
-        width: 100%;
-    }
-
-
+@media (min-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%; }
     header .container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
+      flex-direction: row;
+      justify-content: space-between; }
     header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
-
-    #hero {
-        height: 100vh;
-        background-attachment: fixed;
-    }
-
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px; }
+  #hero {
+    height: 100vh;
+    background-attachment: fixed; }
     #hero h1 {
-        padding-top: 120px;
-    }
-
-    #somos-vencedores .container{
-        display: flex;
-        justify-content: center;
-    }
-
-
-    #somos-vencedores .texto {
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    
-    #somos-vencedores h2 {
-        margin-top: 0px;
-    }
-
-    #somos-vencedores .img-container{
-     background-image:
-     url(../image/joel-jasmin-forestbird-znoL1m6MD_k-unsplash.jpg) ;
+      padding-top: 120px; }
+  #somos-vencedores .container {
+    display: flex;
+    justify-content: center; }
+  #somos-vencedores .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #somos-vencedores h2 {
+    margin-top: 0px; }
+  #somos-vencedores .img-container {
+    background-image: url(../image/joel-jasmin-forestbird-znoL1m6MD_k-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     height: 500px;
     width: 400px;
     border-radius: 15px;
-    box-shadow: 2px black;
-    }
+    box-shadow: 2px black; }
+  #nuestras-salidas .options {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr; }
+  #nuestras-salidas p {
+    display: block;
+    margin-bottom: 30px; }
+  #nuestras-salidas h3 {
+    margin-top: 0; }
+  #nuestras-salidas .carta {
+    padding: 50px; }
+  .container-faq {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 90px;
+    overflow: hidden; }
+  #entra-ya h2 {
+    font-size: 3em; }
+  #entra-ya button {
+    font-size: 1.45em; }
+  footer .container {
+    display: flex;
+    justify-content: flex-end; } }
 
-    #nuestras-salidas .options{
-        display: grid;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    #nuestras-salidas p {
-        display: block;
-        margin-bottom: 30px;
-    }
-
-    #nuestras-salidas h3 {
-        margin-top: 0;
-    }
-
-    #nuestras-salidas .carta {
-        padding: 50px;
-    }
-
-    .container-faq {
-        width: 450px;
-        margin: auto;
-        background:rgba(0, 0, 0, 0.4);
-        box-sizing: border-box;
-        border-radius: 7px;
-        padding: 90px;
-        overflow: hidden;
-    }
-
-    #entra-ya h2{
-        font-size: 3em;
-    }
-    
-
-    #entra-ya button{
-        font-size: 1.45em;
-    }
-
-    footer .container {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-}
-
-@media (max-width:480px){
-
-
-    header .container {
-        font-size: .8em;
-    }
-
-    
-    header nav{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    #nuestras-salidas .options {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
+@media (max-width: 480px) {
+  header .container {
+    font-size: .8em; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  #nuestras-salidas .options {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .contacto {
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-top: 10px; }
+    .contacto h2 {
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; } }

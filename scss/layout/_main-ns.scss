@@ -1,0 +1,139 @@
+#nuestras-salidas {
+    background-color: rgb(30, 30, 30) ;
+    color: white;
+    text-align: center;
+    .container{
+        padding:100px  0px ;
+    }
+    .options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h2 {
+        margin-top: 0;
+        font-size: 3.2em;
+    }
+    p {
+        display: none;
+    }
+    .carta {
+        background-position: center center;
+        background-size:cover ;
+        padding: 50px;
+        margin: 12px;
+        border-radius: 15px;
+    
+    }
+    .carta:first-child {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/trekking.jpg)
+    }
+    
+    
+    .carta:nth-child(2) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/montaña.png)
+    }
+    
+    .carta:nth-child(3) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/dji.jpg)
+    }
+    
+    .carta:nth-child(4) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/guia.jpg)
+    }
+    
+    .carta:nth-child(5) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+             $filtro
+        )
+        ,url(../image/mountain-bike.jpg)
+    }
+    
+    .carta:nth-child(6) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/meditacion.jpg)
+    }
+    
+    .carta:nth-child(7) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/muro.jpg)
+    }
+    
+    .carta:nth-child(8) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/rafting.jpg)
+    }
+    
+    .carta:nth-child(9) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/bungee.jpg)
+    }
+    
+    
+    .carta:nth-child(10) {
+        background-image: linear-gradient(
+             0deg, 
+             $filtro,
+            $filtro
+        )
+        ,url(../image/rapel.jpg)
+    }
+    
+    
+    .carta:nth-child(11) {
+        background-image: linear-gradient(
+             0deg, 
+            $filtro,
+            $filtro
+        )
+        ,url(../image/cabalgata.jpg)
+    }
+    
+    
+    .carta:nth-child(12) {
+        background-image: linear-gradient(
+             0deg, 
+            $filtro,
+            $filtro
+             
+        )
+        ,url(../image/volcan.jpg)
+    }
+}
