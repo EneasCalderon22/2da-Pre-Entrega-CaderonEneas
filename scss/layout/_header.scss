@@ -11,9 +11,7 @@ header {
         animation-delay: 1s;
     }  
     .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex (column, center)
     }
     nav {
         display: flex;

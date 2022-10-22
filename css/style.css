@@ -103,46 +103,63 @@ header {
   background-color: #1e1e1e;
   color: white;
   text-align: center; }
-  #nuestras-salidas .container {
-    padding: 100px  0px; }
-  #nuestras-salidas .options {
-    display: grid;
-    grid-template-columns: 1fr 1fr; }
-  #nuestras-salidas h2 {
-    margin-top: 0;
-    font-size: 3.2em; }
-  #nuestras-salidas p {
-    display: none; }
-  #nuestras-salidas .carta {
-    background-position: center center;
-    background-size: cover;
-    padding: 50px;
-    margin: 12px;
-    border-radius: 15px; }
-  #nuestras-salidas .carta:first-child {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/trekking.jpg); }
-  #nuestras-salidas .carta:nth-child(2) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/montaña.png); }
-  #nuestras-salidas .carta:nth-child(3) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/dji.jpg); }
-  #nuestras-salidas .carta:nth-child(4) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/guia.jpg); }
-  #nuestras-salidas .carta:nth-child(5) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/mountain-bike.jpg); }
-  #nuestras-salidas .carta:nth-child(6) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/meditacion.jpg); }
-  #nuestras-salidas .carta:nth-child(7) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/muro.jpg); }
-  #nuestras-salidas .carta:nth-child(8) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/rafting.jpg); }
-  #nuestras-salidas .carta:nth-child(9) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/bungee.jpg); }
-  #nuestras-salidas .carta:nth-child(10) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/rapel.jpg); }
-  #nuestras-salidas .carta:nth-child(11) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/cabalgata.jpg); }
-  #nuestras-salidas .carta:nth-child(12) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/volcan.jpg); }
+
+#nuestras-salidas .container {
+  padding: 100px  0px; }
+
+#nuestras-salidas .options {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+#nuestras-salidas h2 {
+  margin-top: 0;
+  font-size: 3.2em; }
+
+#nuestras-salidas p {
+  display: none; }
+
+#nuestras-salidas .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 15px; }
+
+#nuestras-salidas .carta:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/trekking.jpg); }
+
+#nuestras-salidas .carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/montaña.png); }
+
+#nuestras-salidas .carta:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/dji.jpg); }
+
+#nuestras-salidas .carta:nth-child(4) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/guia.jpg); }
+
+#nuestras-salidas .carta:nth-child(5) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/mountain-bike.jpg); }
+
+#nuestras-salidas .carta:nth-child(6) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/meditacion.jpg); }
+
+#nuestras-salidas .carta:nth-child(7) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/muro.jpg); }
+
+#nuestras-salidas .carta:nth-child(8) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/rafting.jpg); }
+
+#nuestras-salidas .carta:nth-child(9) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/bungee.jpg); }
+
+#nuestras-salidas .carta:nth-child(10) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/rapel.jpg); }
+
+#nuestras-salidas .carta:nth-child(11) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/cabalgata.jpg); }
+
+#nuestras-salidas .carta:nth-child(12) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/volcan.jpg); }
 
 #faq {
   background-color: #5f3333;
@@ -202,16 +219,42 @@ header {
   color: white;
   background-color: #04a704; }
 
-footer p {
-  margin: 0;
-  padding: 12px;
-  color: #646464; }
-
-footer .container {
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; }
+/*footer {
+    p {
+        margin:0;
+        padding: 12px;
+        color: rgb(100, 100, 100);
+    }
+    .container {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+} */
+.pie-pagina {
+  width: 100%;
+  background: linear-gradient(#252525, #5f5f5f);
+  color: white; }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat 3, 1fr;
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    .pie-pagina .grupo-1 .box figure {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .pie-pagina .grupo-1 .box figure img {
+        width: 250px; }
+      .pie-pagina .grupo-1 .box figure h2 {
+        margin-bottom: 25px;
+        font-size: 20px; }
 
 @media (min-width: 768px) {
   header {

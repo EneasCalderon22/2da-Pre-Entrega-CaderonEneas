@@ -1,7 +1,7 @@
 #nuestras-salidas {
-    background-color: rgb(30, 30, 30) ;
-    color: white;
-    text-align: center;
+    @include nuestras-salidas (rgb(30, 30, 30), white, center)}
+
+    #nuestras-salidas {
     .container{
         padding:100px  0px ;
     }

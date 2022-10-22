@@ -1,0 +1,11 @@
+@mixin nuestras-salidas ($background, $color, $align) {
+    background-color: $background ;
+    color: $color;
+    text-align: $align;
+}
+
+@mixin flex ($direction, $align) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align ;
+}
