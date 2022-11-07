@@ -12,18 +12,11 @@
     }
 } */
 
-.pie-pagina {
+.pie-pagina { 
     width: 100%;
-    background:linear-gradient( rgb(37, 37, 37), rgb(95, 95, 95));
-    color: white;
-    .grupo-1 {
-        width: 100%;
-        max-width: 1200px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat (3, 1fr);
-        grid-gap: 50px;
-        padding: 45px 0px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 50px;
         .box{
             figure{
                 width: 100%;
@@ -31,6 +24,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                background-color: aliceblue;
                 img {
                      width: 250px;
                 }
@@ -41,4 +35,3 @@
             }
         }
     }
-}
